@@ -1,0 +1,1 @@
+ls > index.html && sed -i '1i<!DOCTYPE html><html><head><title>Repo</title></head><body><ul>' index.html && sed -i '$a</ul></body></html>' index.html && sed -i 's/.*/<li><a href="&">&<\/a><\/li>/' index.html
